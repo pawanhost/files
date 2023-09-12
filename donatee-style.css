@@ -1,0 +1,96 @@
+     /* Mobile-First Responsive Design */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+img {
+    border: 6px solid white;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.8);
+    max-width: 80%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #666;
+}
+
+hr {
+    box-shadow: 0 0px 2px rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    margin: 5px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    font-style: italic;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+input[type="text"]:hover {
+    border-color: #0056b3;
+}
+
+input:disabled {
+    color: gray;
+    cursor: not-allowed;
+}
+
+.copy-message {
+    color: #00cc00;
+    font-size: 12px;
+    display: none;
+}
+
+.copy-container {
+    margin: 5px;
+    display: inline block;
+}
+
+label {
+    display: block;
+}
+
+.copyinfo {
+    font-size: 12px;
+    font-style: italic;
+    color: red;
+    font-weight: bold;
+
+}
+
+/* Media Query for Small Screens (Mobile) */
+@media screen and (max-width: 400px) {
+    h1 {
+        font-size: 24px;
+    }
+    
+    h2 {
+        font-size: 18px;
+    }
+    
+    p {
+        font-size: 16px;
+    }
+    
+    ol {
+        font-size: 16px;
+        margin-left: 10px;
+    }
+    
+    input[type="submit"] {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
